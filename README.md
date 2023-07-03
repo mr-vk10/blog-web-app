@@ -18,6 +18,7 @@ _To access the following URLs, JWTs are required. Pass the JWT in the header as 
 - `/api/updatePost` - `POST` - Checks the received DTO for inputs and ensures that a post is updated only by the author of the post. Users cannot update posts authored by others.
 - `/api/getPost/{postID}` - `GET` - Returns a post as per the post ID specified.
 - `/api/deletePost/{postlD}` - `GET` - Deletes a post as per the post ID specified. Users cannot delete posts authored by others.
+- `/swagger-ui.html` - Swagger API Documentation.
 
 #### _Notes:_
 

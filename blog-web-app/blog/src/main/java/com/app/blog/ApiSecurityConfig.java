@@ -54,7 +54,13 @@ public class ApiSecurityConfig extends WebSecurityConfigurerAdapter {
     	.cors()
     	.disable()
     	.authorizeRequests()
-    	.antMatchers("/login/","/register")
+    	.antMatchers("/login/","/register",
+    			"/v2/api-docs",
+                "/configuration/ui",
+                "/swagger-resources/**",
+                "/configuration/security",
+                "/swagger-ui.html",
+                "/webjars/**")
     	.permitAll()
     	//.antMatchers("/api/auth/consumer/cart").hasRole("USER")
     	.anyRequest()
