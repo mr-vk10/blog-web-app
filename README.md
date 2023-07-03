@@ -6,6 +6,7 @@
 
 - `/register` - `POST` - Takes 3 form parameters ("full name". "email", "password") and registers the user in the database. Use Data Transfer Object (DTO) to send data to the controller.
 - `/login` - `POST` - Takes 2 form parameters ("email", "password") and returns the user's JWT ("data" key genericSuccess(Object data)). Use the EntitiyHawk class provided in the util package.
+- `/swagger-ui.html` - Swagger API Documentation.
 
 ##### Authenticating URLs:
 
@@ -18,7 +19,6 @@ _To access the following URLs, JWTs are required. Pass the JWT in the header as 
 - `/api/updatePost` - `POST` - Checks the received DTO for inputs and ensures that a post is updated only by the author of the post. Users cannot update posts authored by others.
 - `/api/getPost/{postID}` - `GET` - Returns a post as per the post ID specified.
 - `/api/deletePost/{postlD}` - `GET` - Deletes a post as per the post ID specified. Users cannot delete posts authored by others.
-- `/swagger-ui.html` - Swagger API Documentation.
 
 #### _Notes:_
 
