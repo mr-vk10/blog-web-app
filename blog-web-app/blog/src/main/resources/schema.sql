@@ -38,6 +38,6 @@ INSERT INTO `posts` VALUES
 (4,'Title 34','Thhis is my 4th Blog body',1,'2020-04-17 15:01:36','2020-04-17 15:01:36',1),
 (5,'This is blog title 5','This is blog body 5',1,'2020-04-17 15:29:53','2020-04-17 15:29:53',1),
 (6,'Thats it','I am updated',2,'2020-04-17 16:26:10','2020-04-17 16:26:54',1),
-7,'title demo updated','demo body updated',1,'2020-04-17 17:27:05','2020-04-17 17:28:34',0);
+(7,'title demo updated','demo body updated',1,'2020-04-17 17:27:05','2020-04-17 17:28:34',0);
 
 UNLOCK TABLES;
